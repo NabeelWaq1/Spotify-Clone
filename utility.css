@@ -1,0 +1,79 @@
+.flex{
+display: flex;
+}
+.item-center{
+align-items: center;
+}
+.justify-content{
+justify-content: center;
+}
+.gap{
+    gap: 10px;
+}
+.border{
+    border: 1px solid red;
+    margin: 3px;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+.bg-light-grey{
+    background-color: #1E1E1E;
+    color: white;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-black-light{
+    background-color: #101010;
+    color: white;
+}
+.m-1{
+    margin: 5px;
+}
+.m-2{ 
+    margin: 10px;
+}
+.p-1{
+    padding: 10px;
+}
+.p-2{
+    padding: 20px;
+}
+.p-3{
+    padding: 25px;
+}
+
+
+.rounded{
+    border-radius: 10px;
+}
+
+
+
+
+/* For Webkit Browsers */
+::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333; /* Dark background color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Darker color for the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Darker color on hover */
+}
+
